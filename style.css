@@ -23,6 +23,12 @@ body {
   display: flex;
   flex-direction: column;
   gap: 4rem;
+  width: 100vw;
+  align-items: center;
+}
+
+.content--body {
+  
 }
 
 .content--add-item {
@@ -64,6 +70,8 @@ body {
   flex-direction: column;
   gap: 1rem;
   padding: 0;
+  width: 100vw;
+  margin: 0 auto;
 }
 
 #to-do-list li {
